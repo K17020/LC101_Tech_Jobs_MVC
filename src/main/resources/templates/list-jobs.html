@@ -11,6 +11,8 @@
     <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
 
     <!-- TODO #3 - Use the same list display from search.html -->
+<!-- First part is referencing a template file search.thml -->
+    <div th:replace="search :: list-jobs"></div>
 
 </div>
 
